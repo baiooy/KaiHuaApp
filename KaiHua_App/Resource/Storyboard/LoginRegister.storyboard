@@ -1,0 +1,824 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="5053" systemVersion="13C64" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="Ijd-ov-JwV">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="btu-oR-vEc">
+            <objects>
+                <navigationController definesPresentationContext="YES" id="Ijd-ov-JwV" sceneMemberID="viewController">
+                    <size key="freeformSize" width="320" height="568"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="ukd-eN-IxL">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="xwx-rg-Oan" kind="relationship" relationship="rootViewController" id="Po0-I0-pOa"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Mlu-JP-wva" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1163" y="-237"/>
+        </scene>
+        <!--Userlogin View Controller-->
+        <scene sceneID="d1l-WV-llg">
+            <objects>
+                <viewController storyboardIdentifier="Login_Register_LOGIN" useStoryboardIdentifierAsRestorationIdentifier="YES" id="xwx-rg-Oan" customClass="UserloginViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="T8L-aH-aOq">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="img_login_Bg" id="zCK-Zm-9aG">
+                                <rect key="frame" x="-5" y="0.0" width="325" height="568"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <view contentMode="scaleToFill" id="8aj-GV-Uc2">
+                                <rect key="frame" x="5" y="310" width="320" height="150"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="gj3-af-gGn" customClass="BaseButton">
+                                        <rect key="frame" x="17" y="100" width="283" height="42"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                        <state key="normal" title="注 册">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <segue destination="yAG-cO-dfh" kind="push" id="6cJ-5m-w0o"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="UKd-jm-bfg">
+                                        <rect key="frame" x="63" y="28" width="79" height="58"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" image="btn_Wechat">
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="6db-UF-tHb">
+                                        <rect key="frame" x="194" y="28" width="66" height="58"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" image="btn_QQ">
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                    </button>
+                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="直接用微信账号或QQ账号登陆" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="jng-4T-0Y8" customClass="BaseLabel">
+                                        <rect key="frame" x="61" y="7" width="199" height="21"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            </view>
+                            <view contentMode="scaleToFill" id="8x2-fV-u1A">
+                                <rect key="frame" x="-3" y="28" width="320" height="292"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="slide_Menu_UserIco" id="O48-hS-Rcw">
+                                        <rect key="frame" x="108" y="8" width="110" height="110"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="p16-ei-P1P">
+                                        <rect key="frame" x="22" y="131" width="283" height="46"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="gfg-bJ-diw">
+                                        <rect key="frame" x="22" y="183" width="283" height="46"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="18621935688" placeholder="请填写手机号登陆" minimumFontSize="17" id="6GV-zN-HG1" customClass="BaseTextField">
+                                        <rect key="frame" x="82" y="139" width="174" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                        <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                        <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                                    </textField>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="111111" placeholder="密码" minimumFontSize="17" id="fSd-1c-RpW" customClass="BaseTextField">
+                                        <rect key="frame" x="82" y="191" width="148" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                        <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                        <textInputTraits key="textInputTraits" keyboardType="numbersAndPunctuation" secureTextEntry="YES"/>
+                                    </textField>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="img_userIco" id="1Sl-7o-KVg">
+                                        <rect key="frame" x="46" y="141" width="26" height="26"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="img_Pwd" id="c2z-bM-PJ8">
+                                        <rect key="frame" x="49" y="193" width="21" height="24"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="xLB-OL-Kqs">
+                                        <rect key="frame" x="245" y="188" width="55" height="36"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" image="btn_resetPwd">
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="resertPwdEvent:" destination="xwx-rg-Oan" eventType="touchUpInside" id="1Vt-jt-8Yq"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Nnl-Nz-S3C" customClass="BaseButton">
+                                        <rect key="frame" x="19" y="237" width="283" height="46"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                        <state key="normal" title="登 录">
+                                            <color key="titleColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="loginBtnEvent:" destination="xwx-rg-Oan" eventType="touchUpInside" id="f2n-NP-dM6"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="QXd-en-dmU"/>
+                    <connections>
+                        <outlet property="btn_Login" destination="Nnl-Nz-S3C" id="Bpg-qV-pEz"/>
+                        <outlet property="btn_QQLogin" destination="6db-UF-tHb" id="l3V-to-WVb"/>
+                        <outlet property="btn_Register" destination="gj3-af-gGn" id="P3u-I8-HEl"/>
+                        <outlet property="btn_ResertPwd" destination="xLB-OL-Kqs" id="XLe-0P-Wf7"/>
+                        <outlet property="btn_WechatLogin" destination="UKd-jm-bfg" id="KpB-Y3-PWa"/>
+                        <outlet property="img_userPhone_BG" destination="p16-ei-P1P" id="Kma-E5-wqv"/>
+                        <outlet property="img_userPwd_BG" destination="gfg-bJ-diw" id="a94-4B-TgB"/>
+                        <outlet property="user_Ico" destination="O48-hS-Rcw" id="arG-MH-aq0"/>
+                        <outlet property="user_Phone" destination="6GV-zN-HG1" id="0u2-gS-db4"/>
+                        <outlet property="user_Pwd" destination="fSd-1c-RpW" id="e1A-JS-ksc"/>
+                        <outlet property="view_InputBG" destination="8x2-fV-u1A" id="KhK-GW-mrM"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="pTe-eD-70e" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-714" y="-392"/>
+        </scene>
+        <!--Reset Pwd View Controller-->
+        <scene sceneID="1ie-cS-Lxm">
+            <objects>
+                <viewController storyboardIdentifier="Login_Register_RESERTPWD" useStoryboardIdentifierAsRestorationIdentifier="YES" id="8aY-tj-Yen" customClass="ResetPwdViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="7ev-He-T0r">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="bVZ-RP-tLW" customClass="BaseButton">
+                                <rect key="frame" x="19" y="345" width="283" height="46"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                <state key="normal" title="完 成">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="BtnComplateEvent:" destination="8aY-tj-Yen" eventType="touchUpInside" id="ABQ-Az-KRQ"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="cMq-tv-jdc">
+                                <rect key="frame" x="19" y="94" width="283" height="46"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="Kap-o1-jPb">
+                                <rect key="frame" x="174" y="148" width="128" height="46"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="img_loginRegister_phone_White" id="byo-cZ-X6l">
+                                <rect key="frame" x="46" y="106" width="21" height="24"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="IBa-zL-UuB">
+                                <rect key="frame" x="19" y="220" width="283" height="46"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="img_Pwd" id="Hb6-tQ-aE5">
+                                <rect key="frame" x="46" y="231" width="21" height="24"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="DDX-FB-s9k">
+                                <rect key="frame" x="19" y="275" width="283" height="46"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="img_Pwd" id="m1g-yJ-xxo">
+                                <rect key="frame" x="46" y="286" width="21" height="24"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="电话" minimumFontSize="17" id="P6J-N4-HgJ" customClass="BaseTextField">
+                                <rect key="frame" x="79" y="103" width="125" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="svS-zO-gmf">
+                                <rect key="frame" x="219" y="94" width="84" height="46"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="12"/>
+                                <state key="normal" title="获取验证码" backgroundImage="login_2">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="btn_VertifyCodeEvent:" destination="8aY-tj-Yen" eventType="touchUpInside" id="vYZ-Ac-l2U"/>
+                                </connections>
+                            </button>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="密码" minimumFontSize="17" id="W1D-Me-2Ot" customClass="BaseTextField">
+                                <rect key="frame" x="79" y="228" width="163" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="确认密码" minimumFontSize="17" id="6XC-M1-vUj" customClass="BaseTextField">
+                                <rect key="frame" x="79" y="283" width="163" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="输入验证码" minimumFontSize="17" id="hJP-9r-gWk" customClass="BaseTextField">
+                                <rect key="frame" x="200" y="156" width="76" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                            </textField>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="lTE-rm-mOQ">
+                                <rect key="frame" x="99" y="158" width="67" height="26"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="nu7-Ah-mOi"/>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
+                    <connections>
+                        <outlet property="Label_Times" destination="lTE-rm-mOQ" id="gxl-Kl-sYg"/>
+                        <outlet property="btn_Commite" destination="bVZ-RP-tLW" id="UkS-Xp-A2V"/>
+                        <outlet property="btn_VertifyCode" destination="svS-zO-gmf" id="qQY-R9-IkP"/>
+                        <outlet property="img_Resert_CK_Pwd" destination="DDX-FB-s9k" id="14b-Lv-cX9"/>
+                        <outlet property="img_Resert_Phone" destination="cMq-tv-jdc" id="53R-qW-Cci"/>
+                        <outlet property="img_Resert_Pwd" destination="IBa-zL-UuB" id="CZG-Bs-smU"/>
+                        <outlet property="img_Resert_Vertify" destination="Kap-o1-jPb" id="Zqs-GE-0i3"/>
+                        <outlet property="input_CKPwd" destination="6XC-M1-vUj" id="wQr-Rr-xyf"/>
+                        <outlet property="input_Phone" destination="P6J-N4-HgJ" id="8bt-Ck-0nz"/>
+                        <outlet property="input_Pwd" destination="W1D-Me-2Ot" id="wzi-KM-pys"/>
+                        <outlet property="input_VertifyCode" destination="hJP-9r-gWk" id="b3A-dm-YV1"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hId-2m-rPF" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-238" y="-450"/>
+        </scene>
+        <!--User Register Add View Controller-->
+        <scene sceneID="mLM-YB-T1P">
+            <objects>
+                <viewController storyboardIdentifier="Login_Register_REGISERTADD" useStoryboardIdentifierAsRestorationIdentifier="YES" id="ceG-Lq-uCZ" customClass="UserRegisterAddViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Qlj-gy-YrX">
+                        <rect key="frame" x="0.0" y="64" width="320" height="416"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="img_RegiatAddCon" id="GDI-rS-Y0A">
+                                <rect key="frame" x="74" y="16" width="170" height="100"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="img_RegiatAddTitle_Bg" id="acW-1c-cho">
+                                <rect key="frame" x="28" y="272" width="188" height="30"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="img_RegiatAddTitle_Bg" id="9BP-em-hDr">
+                                <rect key="frame" x="28" y="310" width="188" height="30"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="是否吸烟?" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="nO8-hc-H02" customClass="BaseLabel">
+                                <rect key="frame" x="46" y="315" width="130" height="14"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="img_RegiatAddTitle_Bg" id="MZJ-nw-2S4">
+                                <rect key="frame" x="28" y="348" width="188" height="30"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="是否喝酒?" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="h2x-YF-OZv" customClass="BaseLabel">
+                                <rect key="frame" x="46" y="353" width="130" height="14"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="2Rt-Gj-O3n" customClass="BaseButton">
+                                <rect key="frame" x="18" y="425" width="283" height="31"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                <state key="normal" title="提交信息">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="btnCommitEvent:" destination="ceG-Lq-uCZ" eventType="touchUpInside" id="uNo-r5-2sg"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="有无过敏史?" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Zdu-NK-b8g" customClass="BaseLabel">
+                                <rect key="frame" x="46" y="279" width="130" height="14"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" id="DA8-Dk-53l" customClass="BaseButton">
+                                <rect key="frame" x="214" y="272" width="42" height="30"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <state key="normal" title="有" backgroundImage="btn_RegiatAddYes">
+                                    <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="btn_GM_YES_Event:" destination="ceG-Lq-uCZ" eventType="touchUpInside" id="bHj-Iy-Q1s"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" id="gno-y4-Bs3" customClass="BaseButton">
+                                <rect key="frame" x="256" y="272" width="50" height="30"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <state key="normal" title="无" backgroundImage="btn_RegiatAddNo">
+                                    <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="btn_GM_NoEvent:" destination="ceG-Lq-uCZ" eventType="touchUpInside" id="CNm-V4-hoL"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" id="fv3-Gl-zzm" customClass="BaseButton">
+                                <rect key="frame" x="256" y="310" width="50" height="30"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <state key="normal" title="否" backgroundImage="btn_RegiatAddNo">
+                                    <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="btn_Smoke_NoEvent:" destination="ceG-Lq-uCZ" eventType="touchUpInside" id="N9C-dL-aPe"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" id="j4O-9a-y0k" customClass="BaseButton">
+                                <rect key="frame" x="256" y="348" width="50" height="30"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <state key="normal" title="否" backgroundImage="btn_RegiatAddNo">
+                                    <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="btn_Drink_NoEvent:" destination="ceG-Lq-uCZ" eventType="touchUpInside" id="Rnx-fJ-QDd"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" id="gig-l9-3rl" customClass="BaseButton">
+                                <rect key="frame" x="214" y="310" width="42" height="30"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <state key="normal" title="是" backgroundImage="btn_RegiatAddYes">
+                                    <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="btn_Smoke_YesEvent:" destination="ceG-Lq-uCZ" eventType="touchUpInside" id="Zlw-n6-cRa"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" id="IAT-8m-eob" customClass="BaseButton">
+                                <rect key="frame" x="214" y="348" width="42" height="30"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <state key="normal" title="是" backgroundImage="btn_RegiatAddYes">
+                                    <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="btn_Drink_YesEvent:" destination="ceG-Lq-uCZ" eventType="touchUpInside" id="Pmq-e3-Ibc"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="img_RegAdd_circle" id="MsR-h0-oMi">
+                                <rect key="frame" x="34" y="168" width="100" height="80"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="img_RegAdd_circle" id="EFY-mU-GuC">
+                                <rect key="frame" x="192" y="168" width="100" height="80"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="fill" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="BbV-eY-Ixb" customClass="BaseButton">
+                                <rect key="frame" x="249" y="53" width="62" height="21"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <inset key="titleEdgeInsets" minX="20" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                <state key="normal" title="跳过">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="btnSkipeEnvent:" destination="ceG-Lq-uCZ" eventType="touchUpInside" id="a02-oH-cKo"/>
+                                </connections>
+                            </button>
+                            <view contentMode="scaleToFill" id="KoQ-lL-672" customClass="CMSCoinView">
+                                <rect key="frame" x="192" y="168" width="100" height="80"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            </view>
+                            <view contentMode="scaleToFill" id="2Vl-bR-uOy" customClass="CMSCoinView">
+                                <rect key="frame" x="34" y="168" width="100" height="80"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            </view>
+                            <view contentMode="scaleToFill" id="0ou-ys-6eV">
+                                <rect key="frame" x="0.0" y="407" width="320" height="215"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" barStyle="blackTranslucent" translucent="NO" id="f9c-9O-eRm">
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                                        <autoresizingMask key="autoresizingMask" widthSizable="YES"/>
+                                        <color key="backgroundColor" red="0.35294117650000001" green="0.1647058824" blue="0.92941176469999998" alpha="1" colorSpace="calibratedRGB"/>
+                                        <items>
+                                            <barButtonItem tag="1" title="取消" width="48" id="PX5-YJ-zPF">
+                                                <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                <connections>
+                                                    <action selector="btnPickerViewCancelEvent:" destination="ceG-Lq-uCZ" id="D47-6o-g8H"/>
+                                                </connections>
+                                            </barButtonItem>
+                                            <barButtonItem width="183" style="plain" id="S72-GE-Cf7">
+                                                <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            </barButtonItem>
+                                            <barButtonItem tag="2" image="btn_RegiatAdd_SelOK" width="45" style="done" id="dBl-p6-kEe">
+                                                <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                <connections>
+                                                    <action selector="btn_PickerViewOKEvent:" destination="ceG-Lq-uCZ" id="kHg-mt-a90"/>
+                                                </connections>
+                                            </barButtonItem>
+                                        </items>
+                                        <color key="barTintColor" red="0.35294117650000001" green="0.1647058824" blue="0.92941176469999998" alpha="1" colorSpace="calibratedRGB"/>
+                                    </toolbar>
+                                    <pickerView contentMode="scaleToFill" id="oqu-D6-xHC">
+                                        <rect key="frame" x="0.0" y="44" width="320" height="162"/>
+                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        <connections>
+                                            <outlet property="dataSource" destination="ceG-Lq-uCZ" id="qbb-ln-zZ9"/>
+                                            <outlet property="delegate" destination="ceG-Lq-uCZ" id="i6s-RR-wW9"/>
+                                        </connections>
+                                    </pickerView>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="填写详细的个人健康信息，" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="ehh-Pa-Sph" customClass="BaseLabel">
+                                <rect key="frame" x="55" y="122" width="213" height="17"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="欢乐送金币！" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="euI-zi-UY5" customClass="BaseLabel">
+                                <rect key="frame" x="75" y="138" width="172" height="17"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.85098039219999999" green="0.85098039219999999" blue="0.85098039219999999" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="pdP-mZ-aKb"/>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" translucent="NO" prompted="NO"/>
+                    <connections>
+                        <outlet property="barBtn_Title" destination="S72-GE-Cf7" id="chR-c9-wD0"/>
+                        <outlet property="btn_Commite" destination="2Rt-Gj-O3n" id="1bx-cS-9Hj"/>
+                        <outlet property="btn_RedAdd_Drink_No" destination="j4O-9a-y0k" id="cOA-t4-yX3"/>
+                        <outlet property="btn_RedAdd_Drink_Yes" destination="IAT-8m-eob" id="6g3-xN-c4b"/>
+                        <outlet property="btn_RedAdd_GM_No" destination="gno-y4-Bs3" id="OSl-TR-QQV"/>
+                        <outlet property="btn_RedAdd_GM_Yes" destination="DA8-Dk-53l" id="jSX-N5-2Yg"/>
+                        <outlet property="btn_RedAdd_Smoke_No" destination="fv3-Gl-zzm" id="9Rs-w6-35L"/>
+                        <outlet property="btn_RedAdd_Smoke_Yes" destination="gig-l9-3rl" id="l2B-Nx-kJs"/>
+                        <outlet property="coinView_Height" destination="2Vl-bR-uOy" id="I8f-xi-m7a"/>
+                        <outlet property="coinView_Weight" destination="KoQ-lL-672" id="u0i-HY-7BE"/>
+                        <outlet property="img_RegAdd_Drink" destination="MZJ-nw-2S4" id="8dj-fk-Cpo"/>
+                        <outlet property="img_RegAdd_GM" destination="acW-1c-cho" id="gzz-4n-GWZ"/>
+                        <outlet property="img_RegAdd_Smoke" destination="9BP-em-hDr" id="YNd-5H-wJS"/>
+                        <outlet property="pickView_BG" destination="0ou-ys-6eV" id="L8O-6s-tn1"/>
+                        <outlet property="pickView_Control" destination="oqu-D6-xHC" id="NTz-Hl-a9C"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="BgY-o7-x7w" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-215" y="229"/>
+        </scene>
+        <!--User Register View Controller-->
+        <scene sceneID="i2C-0J-JsE">
+            <objects>
+                <viewController storyboardIdentifier="Login_Register_REGISTER" useStoryboardIdentifierAsRestorationIdentifier="YES" id="yAG-cO-dfh" customClass="UserRegisterViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="bgd-TH-bfT">
+                        <rect key="frame" x="0.0" y="64" width="320" height="416"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" id="qDC-0n-6Kq">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="416"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <subviews>
+                                    <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="lrF-Gn-EBf" customClass="TPKeyboardAvoidingScrollView">
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="417"/>
+                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                        <subviews>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="yxH-py-UcD">
+                                                <rect key="frame" x="21" y="109" width="283" height="38"/>
+                                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="V3s-9X-Hsl">
+                                                <rect key="frame" x="21" y="154" width="283" height="38"/>
+                                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="img_Pwd" id="jRT-Dz-Cev">
+                                                <rect key="frame" x="47" y="163" width="21" height="20"/>
+                                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="CqS-tR-LLN">
+                                                <rect key="frame" x="21" y="198" width="283" height="38"/>
+                                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="img_loginRegister_phone_White" id="8gJ-ma-9VX">
+                                                <rect key="frame" x="46" y="207" width="21" height="20"/>
+                                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="jUT-eD-6dh">
+                                                <rect key="frame" x="21" y="244" width="283" height="38"/>
+                                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="HYK-oc-9pm">
+                                                <rect key="frame" x="21" y="288" width="283" height="38"/>
+                                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="姓名" minimumFontSize="17" id="bw0-2H-ClM" customClass="BaseTextField">
+                                                <rect key="frame" x="82" y="116" width="192" height="25"/>
+                                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                                <textInputTraits key="textInputTraits"/>
+                                            </textField>
+                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="密码" minimumFontSize="17" id="hjo-O4-gU2" customClass="BaseTextField">
+                                                <rect key="frame" x="83" y="160" width="141" height="25"/>
+                                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                                <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
+                                            </textField>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="QOe-43-7hd" customClass="BaseButton">
+                                                <rect key="frame" x="34" y="326" width="255" height="38"/>
+                                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                                <state key="normal" title="完成注册">
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="btn_CommitEvent:" destination="yAG-cO-dfh" eventType="touchUpInside" id="zgM-bW-5XS"/>
+                                                    <segue destination="ceG-Lq-uCZ" kind="push" id="mAO-3c-nWZ"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="VTN-Yb-cti">
+                                                <rect key="frame" x="98" y="5" width="124" height="97"/>
+                                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" image="login_pic">
+                                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="btn_UserIcoEvent:" destination="yAG-cO-dfh" eventType="touchUpInside" id="PNf-ni-IAM"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="KnY-CH-kxb" customClass="BaseButton">
+                                                <rect key="frame" x="19" y="243" width="141" height="39"/>
+                                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" image="login_girl1">
+                                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="btn_Girl_Event:" destination="yAG-cO-dfh" eventType="touchUpInside" id="y5v-4D-cna"/>
+                                                </connections>
+                                            </button>
+                                            <textField opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="出生年" textAlignment="center" minimumFontSize="17" id="x9m-4r-xtB" customClass="BaseTextField">
+                                                <rect key="frame" x="40" y="296" width="70" height="25"/>
+                                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                                <textInputTraits key="textInputTraits"/>
+                                            </textField>
+                                            <textField opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="月" textAlignment="center" minimumFontSize="17" id="iqu-Rt-ptT" customClass="BaseTextField">
+                                                <rect key="frame" x="131" y="296" width="70" height="25"/>
+                                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                                <textInputTraits key="textInputTraits"/>
+                                            </textField>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="img_userIco" id="Egc-4U-vDj">
+                                                <rect key="frame" x="46" y="117" width="26" height="21"/>
+                                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <view alpha="0.5" contentMode="scaleToFill" id="X6P-ug-nN5">
+                                                <rect key="frame" x="118" y="291" width="1" height="35"/>
+                                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                            </view>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Xym-Sg-hPw">
+                                                <rect key="frame" x="220" y="198" width="84" height="38"/>
+                                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="12"/>
+                                                <state key="normal" title="获取验证码" backgroundImage="login_2">
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="btn_GetVertifyCodeEvent:" destination="yAG-cO-dfh" eventType="touchUpInside" id="Sqk-Wl-bFt"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="q1Y-06-MPb" customClass="BaseButton">
+                                                <rect key="frame" x="161" y="243" width="141" height="39"/>
+                                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" image="login_bor1">
+                                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="btn_Girl_Event:" destination="yAG-cO-dfh" eventType="touchUpInside" id="Dp4-Pj-adw"/>
+                                                </connections>
+                                            </button>
+                                            <textField opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="日" textAlignment="center" minimumFontSize="17" id="hA3-SM-z5G" customClass="BaseTextField">
+                                                <rect key="frame" x="227" y="296" width="70" height="25"/>
+                                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                                <textInputTraits key="textInputTraits"/>
+                                            </textField>
+                                            <view alpha="0.5" contentMode="scaleToFill" id="bPI-eA-1By">
+                                                <rect key="frame" x="219" y="291" width="1" height="35"/>
+                                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                            </view>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="U4a-ww-RyW">
+                                                <rect key="frame" x="34" y="295" width="263" height="25"/>
+                                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                                <state key="normal">
+                                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="btn_BirthdayEvent:" destination="yAG-cO-dfh" eventType="touchUpInside" id="TJF-Vn-Ttc"/>
+                                                </connections>
+                                            </button>
+                                            <view contentMode="scaleToFill" id="UbI-tw-iPg">
+                                                <rect key="frame" x="55" y="194" width="169" height="46"/>
+                                                <subviews>
+                                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="6vb-x3-N4b">
+                                                        <rect key="frame" x="122" y="12" width="47" height="21"/>
+                                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="13"/>
+                                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="电话" minimumFontSize="17" id="yDn-DO-VO7">
+                                                        <rect key="frame" x="23" y="8" width="138" height="30"/>
+                                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                        <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                                                    </textField>
+                                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" id="VyV-ha-nQh" customClass="BaseTextField">
+                                                        <rect key="frame" x="23" y="8" width="100" height="30"/>
+                                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                                        <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                                                    </textField>
+                                                </subviews>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                            </view>
+                                        </subviews>
+                                    </scrollView>
+                                    <view contentMode="scaleToFill" id="Fji-4g-r7d">
+                                        <rect key="frame" x="0.0" y="407" width="320" height="260"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMinY="YES"/>
+                                        <subviews>
+                                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" barStyle="blackTranslucent" translucent="NO" id="uG6-n6-elO">
+                                                <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                                                <autoresizingMask key="autoresizingMask" widthSizable="YES"/>
+                                                <color key="backgroundColor" red="0.35294117650000001" green="0.1647058824" blue="0.92941176469999998" alpha="1" colorSpace="calibratedRGB"/>
+                                                <items>
+                                                    <barButtonItem tag="1" title="取消" width="48" id="SWb-Wc-47w">
+                                                        <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                        <connections>
+                                                            <action selector="btnBirthdayViewCancelEvent:" destination="yAG-cO-dfh" id="Yqq-eB-C3Z"/>
+                                                        </connections>
+                                                    </barButtonItem>
+                                                    <barButtonItem title="出生年月" width="183" style="plain" id="xmW-SO-r8n">
+                                                        <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                    </barButtonItem>
+                                                    <barButtonItem tag="2" image="btn_RegiatAdd_SelOK" width="45" style="done" id="nc0-lQ-PdF">
+                                                        <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                        <connections>
+                                                            <action selector="btn_BirthdayViewOKEvent:" destination="yAG-cO-dfh" id="vK1-DO-Hqv"/>
+                                                        </connections>
+                                                    </barButtonItem>
+                                                </items>
+                                                <color key="barTintColor" red="0.3529411764705882" green="0.16470588235294117" blue="0.92941176470588238" alpha="1" colorSpace="calibratedRGB"/>
+                                            </toolbar>
+                                            <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="date" minuteInterval="1" id="dXc-nn-p4i" userLabel="Picker date">
+                                                <rect key="frame" x="0.0" y="44" width="320" height="216"/>
+                                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                                <date key="date" timeIntervalSinceReferenceDate="379750310.07907099">
+                                                    <!--2013-01-13 06:11:50 +0000-->
+                                                </date>
+                                                <locale key="locale" localeIdentifier="zh-Hans"/>
+                                                <timeZone key="timeZone" name="America/Los_Angeles">
+                                                    <data key="data">
+VFppZgAAAAAAAAAAAAAAAAAAAAAAAAAEAAAABAAAAAAAAAC5AAAABAAAABCepkign7sVkKCGKqChmveQ
+y4kaoNIj9HDSYSYQ1v50INiArZDa/tGg28CQENzes6DdqayQ3r6VoN+JjpDgnneg4WlwkOJ+WaDjSVKQ
+5F47oOUpNJDmR1gg5xJREOgnOiDo8jMQ6gccIOrSFRDr5v4g7LH3EO3G4CDukdkQ76/8oPBxuxDxj96g
+8n/BkPNvwKD0X6OQ9U+ioPY/hZD3L4Sg+CiiEPkPZqD6CIQQ+viDIPvoZhD82GUg/chIEP64RyD/qCoQ
+AJgpIAGIDBACeAsgA3EokARhJ6AFUQqQBkEJoAcw7JAHjUOgCRDOkAmtvyAK8LCQC+CvoAzZzRANwJGg
+DrmvEA+priAQmZEQEYmQIBJ5cxATaXIgFFlVEBVJVCAWOTcQFyk2IBgiU5AZCRggGgI1kBryNKAb4heQ
+HNIWoB3B+ZAesfigH6HbkCB2KyAhgb2QIlYNICNq2hAkNe8gJUq8ECYV0SAnKp4QJ/7toCkKgBAp3s+g
+KupiECu+saAs036QLZ6ToC6zYJAvfnWgMJNCkDFnkiAycySQM0d0IDRTBpA1J1YgNjLokDcHOCA4HAUQ
+OOcaIDn75xA6xvwgO9vJEDywGKA9u6sQPo/6oD+bjRBAb9ygQYSpkEJPvqBDZIuQRC+goEVEbZBF89Mg
+Ry2KEEfTtSBJDWwQSbOXIErtThBLnLOgTNZqkE18laBOtkyQT1x3oFCWLpBRPFmgUnYQkFMcO6BUVfKQ
+VPwdoFY11JBW5TogWB7xEFjFHCBZ/tMQWqT+IFvetRBchOAgXb6XEF5kwiBfnnkQYE3eoGGHlZBiLcCg
+Y2d3kGQNoqBlR1mQZe2EoGcnO5BnzWagaQcdkGmtSKBq5v+Qa5ZlIGzQHBBtdkcgbq/+EG9WKSBwj+AQ
+cTYLIHJvwhBzFe0gdE+kEHT/CaB2OMCQdt7roHgYopB4vs2gefiEkHqer6B72GaQfH6RoH24SJB+XnOg
+f5gqkAABAAECAwEAAQABAAEAAQABAAEAAQABAAEAAQABAAEAAQABAAEAAQABAAEAAQABAAEAAQABAAEA
+AQABAAEAAQABAAEAAQABAAEAAQABAAEAAQABAAEAAQABAAEAAQABAAEAAQABAAEAAQABAAEAAQABAAEA
+AQABAAEAAQABAAEAAQABAAEAAQABAAEAAQABAAEAAQABAAEAAQABAAEAAQABAAEAAQABAAEAAQABAAEA
+AQABAAEAAQAB//+dkAEA//+PgAAE//+dkAEI//+dkAEMUERUAFBTVABQV1QAUFBUAAAAAAEAAAABA
+</data>
+                                                </timeZone>
+                                            </datePicker>
+                                        </subviews>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                    </view>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="I88-yB-42n">
+                        <nil key="title"/>
+                    </navigationItem>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" translucent="NO" prompted="NO"/>
+                    <connections>
+                        <outlet property="View_Reg_VertifyBG" destination="UbI-tw-iPg" id="6zw-8H-OMw"/>
+                        <outlet property="btn_Reg_VertifyCode" destination="Xym-Sg-hPw" id="2vR-DS-Csk"/>
+                        <outlet property="datePick_Birthday" destination="dXc-nn-p4i" id="8uP-x9-xmx"/>
+                        <outlet property="img_Reg_BirthdayBg" destination="HYK-oc-9pm" id="yHW-5M-Pzq"/>
+                        <outlet property="img_Reg_NameBg" destination="yxH-py-UcD" id="WJ6-wp-gm3"/>
+                        <outlet property="img_Reg_PhoneBg" destination="CqS-tR-LLN" id="rPW-3R-l2C"/>
+                        <outlet property="img_Reg_PwdBg" destination="V3s-9X-Hsl" id="Py8-zQ-f4D"/>
+                        <outlet property="img_Reg_SexBg" destination="jUT-eD-6dh" id="3d3-dE-cNx"/>
+                        <outlet property="input_VertifyCode" destination="VyV-ha-nQh" id="jy9-NZ-LLf"/>
+                        <outlet property="label_Timers" destination="6vb-x3-N4b" id="XyA-9F-SiO"/>
+                        <outlet property="reg_Birthday_Day" destination="hA3-SM-z5G" id="UCh-W5-Ehk"/>
+                        <outlet property="reg_Birthday_Month" destination="iqu-Rt-ptT" id="l1o-TH-umb"/>
+                        <outlet property="reg_Birthday_Year" destination="x9m-4r-xtB" id="UJN-Qs-vnv"/>
+                        <outlet property="reg_Btn_Boy" destination="q1Y-06-MPb" id="c3U-qM-NBi"/>
+                        <outlet property="reg_Btn_Commit" destination="QOe-43-7hd" id="ISK-hv-Hfl"/>
+                        <outlet property="reg_Btn_Girl" destination="KnY-CH-kxb" id="Hhk-vm-tkb"/>
+                        <outlet property="reg_Name" destination="bw0-2H-ClM" id="7DT-cu-UJs"/>
+                        <outlet property="reg_Phone" destination="yDn-DO-VO7" id="Rzl-nZ-YaK"/>
+                        <outlet property="reg_Pwd" destination="hjo-O4-gU2" id="Ofo-RK-H5c"/>
+                        <outlet property="scroll_BGView" destination="lrF-Gn-EBf" id="cwN-I3-yR2"/>
+                        <outlet property="view_Datepicker_BG" destination="Fji-4g-r7d" id="xcz-J9-cXi"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="y8r-om-Dvv" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-732" y="293"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="btn_QQ" width="58" height="58"/>
+        <image name="btn_RegiatAddNo" width="49" height="45"/>
+        <image name="btn_RegiatAddYes" width="46" height="45"/>
+        <image name="btn_RegiatAdd_SelOK" width="28" height="29"/>
+        <image name="btn_Wechat" width="58" height="58"/>
+        <image name="btn_resetPwd" width="21" height="21"/>
+        <image name="img_Pwd" width="21" height="24"/>
+        <image name="img_RegAdd_circle" width="128" height="126"/>
+        <image name="img_RegiatAddCon" width="191" height="136"/>
+        <image name="img_RegiatAddTitle_Bg" width="188" height="45"/>
+        <image name="img_loginRegister_phone_White" width="21" height="23"/>
+        <image name="img_login_Bg" width="320" height="568"/>
+        <image name="img_userIco" width="26" height="25"/>
+        <image name="login_2" width="84" height="45"/>
+        <image name="login_bor1" width="141" height="45"/>
+        <image name="login_girl1" width="141" height="45"/>
+        <image name="login_pic" width="118" height="118"/>
+        <image name="slide_Menu_UserIco" width="104" height="104"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination"/>
+    </simulatedMetricsContainer>
+</document>

@@ -1,0 +1,518 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>User_Info_Data</key>
+	<dict>
+		<key>userId</key>
+		<string>0001</string>
+		<key>personName</key>
+		<string>王小二</string>
+		<key>personSex</key>
+		<string>0</string>
+		<key>userMobilePhone</key>
+		<string>13333333333</string>
+		<key>personMaritalStatus</key>
+		<string>0</string>
+		<key>personCareer</key>
+		<string>工头</string>
+		<key>personEducation</key>
+		<string>博士</string>
+		<key>personBirthday</key>
+		<string>1991-11-11</string>
+	</dict>
+	<key>Menu_Data</key>
+	<array>
+		<dict>
+			<key>tag</key>
+			<string>Home</string>
+			<key>ico</key>
+			<string>slide_Menu_Userinfo</string>
+			<key>ico_sel</key>
+			<string>slide_Menu_Userinfo_sel</string>
+			<key>name</key>
+			<string>我的基本信息</string>
+			<key>respons_class</key>
+			<string>UserSettingViewController</string>
+		</dict>
+		<dict>
+			<key>tag</key>
+			<string>UserCenter</string>
+			<key>ico</key>
+			<string>slide_Menu_HealthStore</string>
+			<key>ico_sel</key>
+			<string>slide_Menu_HealthStore_sel</string>
+			<key>name</key>
+			<string>我的健康档案</string>
+			<key>respons_class</key>
+			<string>HealthRecordsViewController</string>
+		</dict>
+		<dict>
+			<key>tag</key>
+			<string>UserCenter</string>
+			<key>ico</key>
+			<string>slide_Menu_BingLi</string>
+			<key>ico_sel</key>
+			<string>slide_Menu_BingLi_sel</string>
+			<key>name</key>
+			<string>我的病历</string>
+			<key>respons_class</key>
+			<string>MedicalRecordsViewController</string>
+		</dict>
+		<dict>
+			<key>tag</key>
+			<string>UserCenter</string>
+			<key>ico</key>
+			<string>slide_Menu_Favourite</string>
+			<key>ico_sel</key>
+			<string>slide_Menu_Favourite_sel</string>
+			<key>name</key>
+			<string>我的收藏</string>
+			<key>respons_class</key>
+			<string>MyFavouriteViewController</string>
+		</dict>
+		<dict>
+			<key>tag</key>
+			<string>UserCenter</string>
+			<key>ico</key>
+			<string>slide_Menu_Setting</string>
+			<key>ico_sel</key>
+			<string>slide_Menu_Setting_sel</string>
+			<key>name</key>
+			<string>设置</string>
+			<key>respons_class</key>
+			<string>SettingViewController</string>
+		</dict>
+		<dict>
+			<key>tag</key>
+			<string>UserCenter</string>
+			<key>ico</key>
+			<string>slide_Menu_fadeback</string>
+			<key>ico_sel</key>
+			<string>slide_Menu_fadeback_sel</string>
+			<key>name</key>
+			<string>意见反馈</string>
+			<key>respons_class</key>
+			<string>FadebackViewController</string>
+		</dict>
+		<dict>
+			<key>tag</key>
+			<string>UserCenter</string>
+			<key>ico</key>
+			<string>slide_Menu_Kaihua</string>
+			<key>ico_sel</key>
+			<string>slide_Menu_Kaihua</string>
+			<key>name</key>
+			<string>关于凯华</string>
+			<key>respons_class</key>
+			<string>CopyrightViewController</string>
+		</dict>
+	</array>
+	<key>ArticalType</key>
+	<array>
+		<dict>
+			<key>userId</key>
+			<string>1</string>
+			<key>typeId</key>
+			<string>1</string>
+			<key>typeName</key>
+			<string>母婴知识</string>
+			<key>typeImgBig</key>
+			<string>btn_health_Service_muying</string>
+			<key>typeImgSmoll</key>
+			<string>btn_service_articlesmuying</string>
+		</dict>
+		<dict>
+			<key>userId</key>
+			<string>1</string>
+			<key>typeId</key>
+			<string>2</string>
+			<key>typeName</key>
+			<string>体重管理</string>
+			<key>typeImgBig</key>
+			<string>btn_health_Service_weight</string>
+			<key>typeImgSmoll</key>
+			<string>btn_service_articlesweight</string>
+		</dict>
+		<dict>
+			<key>userId</key>
+			<string>1</string>
+			<key>typeId</key>
+			<string>3</string>
+			<key>typeName</key>
+			<string>慢病防止</string>
+			<key>typeImgBig</key>
+			<string>btn_health_Service_MBFZ</string>
+			<key>typeImgSmoll</key>
+			<string>btn_service_articlesMBFZ</string>
+		</dict>
+		<dict>
+			<key>userId</key>
+			<string>1</string>
+			<key>typeId</key>
+			<string>0</string>
+			<key>typeName</key>
+			<string></string>
+			<key>typeImgBig</key>
+			<string>btn_health_Service_Item_Add</string>
+			<key>typeImgSmoll</key>
+			<string>btn_service_articles_Add</string>
+		</dict>
+	</array>
+	<key>ArticalBanner</key>
+	<array>
+		<dict>
+			<key>userId</key>
+			<string>1</string>
+			<key>typeId</key>
+			<string>1</string>
+			<key>typeName</key>
+			<string>母婴知识</string>
+			<key>typeImgBig</key>
+			<string>Demo_img_health_Service_1</string>
+			<key>typeImgSmoll</key>
+			<string>btn_service_articlesmuying</string>
+		</dict>
+		<dict>
+			<key>userId</key>
+			<string>1</string>
+			<key>typeId</key>
+			<string>2</string>
+			<key>typeName</key>
+			<string>体重管理</string>
+			<key>typeImgBig</key>
+			<string>Demo_img_health_Service_2</string>
+			<key>typeImgSmoll</key>
+			<string>btn_service_articlesweight</string>
+		</dict>
+		<dict>
+			<key>userId</key>
+			<string>1</string>
+			<key>typeId</key>
+			<string>3</string>
+			<key>typeName</key>
+			<string>慢病防止</string>
+			<key>typeImgBig</key>
+			<string>Demo_img_health_Service_3</string>
+			<key>typeImgSmoll</key>
+			<string>btn_service_articlesMBFZ</string>
+		</dict>
+	</array>
+	<key>ArticalDetail</key>
+	<array>
+		<dict>
+			<key>Id</key>
+			<string>1</string>
+			<key>typeId</key>
+			<string>1</string>
+			<key>title</key>
+			<string>吃素，你吃对了吗？</string>
+			<key>content</key>
+			<string>首先吃的原料选择要新鲜、质量高。菜肴的原料，包括蔬菜及豆制品、肉类及肉制品、家禽及蛋品、水产海鲜、野味、干货和瓜果等，
+不下数百种。选料总的原则是新鲜高质。具体来说，熟悉各种原料的生长季节；掌握同一原料中不同品种的特点；了解原料不同部位的用途
+；善于鉴别各种原料的质量；懂得一点各种原料的主要营养特点的知识。
+
+  其次是根据自己身体的不同情况，配制不同的食物菜谱。现代生活的状态使得人们比较多地选择蔬菜、瓜果以及低糖、低盐、低脂肪的
+食物。也就是多食绿色食物，多食粗纤维食物，包括食一点粗粮，减少由于生活改善，食物趋向精细的偏向。
+
+  再次，食物既注意鲜嫩可口，又注意要烧熟，减少细菌对身体的侵害。现代社会，人们为了食美味，不少人开始吃生鱼、生肉、生蔬菜，
+有的则是吃半生不熟的生猛海鲜。殊不知饱了口福，可能伤了身体。这是我们应注意的。</string>
+			<key>createTime</key>
+			<string>2014/05/25</string>
+			<key>from</key>
+			<string>果壳网</string>
+			<key>img</key>
+			<string>Demo_img_service_article01</string>
+		</dict>
+		<dict>
+			<key>Id</key>
+			<string>1</string>
+			<key>typeId</key>
+			<string>1</string>
+			<key>title</key>
+			<string>早起孕妇在夏季运动要注意什么？</string>
+			<key>content</key>
+			<string>首先吃的原料选择要新鲜、质量高。菜肴的原料，包括蔬菜及豆制品、肉类及肉制品、家禽及蛋品、水产海鲜、野味、干货和瓜果等，
+不下数百种。选料总的原则是新鲜高质。具体来说，熟悉各种原料的生长季节；掌握同一原料中不同品种的特点；了解原料不同部位的用途
+；善于鉴别各种原料的质量；懂得一点各种原料的主要营养特点的知识。
+
+  其次是根据自己身体的不同情况，配制不同的食物菜谱。现代生活的状态使得人们比较多地选择蔬菜、瓜果以及低糖、低盐、低脂肪的
+食物。也就是多食绿色食物，多食粗纤维食物，包括食一点粗粮，减少由于生活改善，食物趋向精细的偏向。
+
+  再次，食物既注意鲜嫩可口，又注意要烧熟，减少细菌对身体的侵害。现代社会，人们为了食美味，不少人开始吃生鱼、生肉、生蔬菜，
+有的则是吃半生不熟的生猛海鲜。殊不知饱了口福，可能伤了身体。这是我们应注意的。</string>
+			<key>createTime</key>
+			<string>2014/05/25</string>
+			<key>from</key>
+			<string>果壳网</string>
+			<key>img</key>
+			<string>Demo_img_service_article02</string>
+		</dict>
+		<dict>
+			<key>Id</key>
+			<string>2</string>
+			<key>typeId</key>
+			<string>1</string>
+			<key>title</key>
+			<string>孕妇可以饮酒吗？</string>
+			<key>content</key>
+			<string>首先吃的原料选择要新鲜、质量高。菜肴的原料，包括蔬菜及豆制品、肉类及肉制品、家禽及蛋品、水产海鲜、野味、干货和瓜果等，
+不下数百种。选料总的原则是新鲜高质。具体来说，熟悉各种原料的生长季节；掌握同一原料中不同品种的特点；了解原料不同部位的用途
+；善于鉴别各种原料的质量；懂得一点各种原料的主要营养特点的知识。
+
+  其次是根据自己身体的不同情况，配制不同的食物菜谱。现代生活的状态使得人们比较多地选择蔬菜、瓜果以及低糖、低盐、低脂肪的
+食物。也就是多食绿色食物，多食粗纤维食物，包括食一点粗粮，减少由于生活改善，食物趋向精细的偏向。
+
+  再次，食物既注意鲜嫩可口，又注意要烧熟，减少细菌对身体的侵害。现代社会，人们为了食美味，不少人开始吃生鱼、生肉、生蔬菜，
+有的则是吃半生不熟的生猛海鲜。殊不知饱了口福，可能伤了身体。这是我们应注意的。</string>
+			<key>createTime</key>
+			<string>2014/05/25</string>
+			<key>from</key>
+			<string>果壳网</string>
+			<key>img</key>
+			<string>Demo_img_service_article02</string>
+		</dict>
+		<dict>
+			<key>Id</key>
+			<string>3</string>
+			<key>typeId</key>
+			<string>1</string>
+			<key>title</key>
+			<string>孕妇可以做瑜伽吗？</string>
+			<key>content</key>
+			<string>首先吃的原料选择要新鲜、质量高。菜肴的原料，包括蔬菜及豆制品、肉类及肉制品、家禽及蛋品、水产海鲜、野味、干货和瓜果等，
+不下数百种。选料总的原则是新鲜高质。具体来说，熟悉各种原料的生长季节；掌握同一原料中不同品种的特点；了解原料不同部位的用途
+；善于鉴别各种原料的质量；懂得一点各种原料的主要营养特点的知识。
+
+  其次是根据自己身体的不同情况，配制不同的食物菜谱。现代生活的状态使得人们比较多地选择蔬菜、瓜果以及低糖、低盐、低脂肪的
+食物。也就是多食绿色食物，多食粗纤维食物，包括食一点粗粮，减少由于生活改善，食物趋向精细的偏向。
+
+  再次，食物既注意鲜嫩可口，又注意要烧熟，减少细菌对身体的侵害。现代社会，人们为了食美味，不少人开始吃生鱼、生肉、生蔬菜，
+有的则是吃半生不熟的生猛海鲜。殊不知饱了口福，可能伤了身体。这是我们应注意的。</string>
+			<key>createTime</key>
+			<string>2014/05/25</string>
+			<key>from</key>
+			<string>果壳网</string>
+			<key>img</key>
+			<string>Demo_img_service_article01</string>
+		</dict>
+		<dict>
+			<key>Id</key>
+			<string>4</string>
+			<key>typeId</key>
+			<string>1</string>
+			<key>title</key>
+			<string>吃素，你吃对了吗？</string>
+			<key>content</key>
+			<string>首先吃的原料选择要新鲜、质量高。菜肴的原料，包括蔬菜及豆制品、肉类及肉制品、家禽及蛋品、水产海鲜、野味、干货和瓜果等，
+不下数百种。选料总的原则是新鲜高质。具体来说，熟悉各种原料的生长季节；掌握同一原料中不同品种的特点；了解原料不同部位的用途
+；善于鉴别各种原料的质量；懂得一点各种原料的主要营养特点的知识。
+
+  其次是根据自己身体的不同情况，配制不同的食物菜谱。现代生活的状态使得人们比较多地选择蔬菜、瓜果以及低糖、低盐、低脂肪的
+食物。也就是多食绿色食物，多食粗纤维食物，包括食一点粗粮，减少由于生活改善，食物趋向精细的偏向。
+
+  再次，食物既注意鲜嫩可口，又注意要烧熟，减少细菌对身体的侵害。现代社会，人们为了食美味，不少人开始吃生鱼、生肉、生蔬菜，
+有的则是吃半生不熟的生猛海鲜。殊不知饱了口福，可能伤了身体。这是我们应注意的。</string>
+			<key>createTime</key>
+			<string>2014/05/25</string>
+			<key>from</key>
+			<string>果壳网</string>
+			<key>img</key>
+			<string>Demo_img_service_article03</string>
+		</dict>
+		<dict>
+			<key>Id</key>
+			<string>5</string>
+			<key>typeId</key>
+			<string>1</string>
+			<key>title</key>
+			<string>吃素，你吃对了吗？</string>
+			<key>content</key>
+			<string>首先吃的原料选择要新鲜、质量高。菜肴的原料，包括蔬菜及豆制品、肉类及肉制品、家禽及蛋品、水产海鲜、野味、干货和瓜果等，
+不下数百种。选料总的原则是新鲜高质。具体来说，熟悉各种原料的生长季节；掌握同一原料中不同品种的特点；了解原料不同部位的用途
+；善于鉴别各种原料的质量；懂得一点各种原料的主要营养特点的知识。
+
+  其次是根据自己身体的不同情况，配制不同的食物菜谱。现代生活的状态使得人们比较多地选择蔬菜、瓜果以及低糖、低盐、低脂肪的
+食物。也就是多食绿色食物，多食粗纤维食物，包括食一点粗粮，减少由于生活改善，食物趋向精细的偏向。
+
+  再次，食物既注意鲜嫩可口，又注意要烧熟，减少细菌对身体的侵害。现代社会，人们为了食美味，不少人开始吃生鱼、生肉、生蔬菜，
+有的则是吃半生不熟的生猛海鲜。殊不知饱了口福，可能伤了身体。这是我们应注意的。</string>
+			<key>createTime</key>
+			<string>2014/05/25</string>
+			<key>from</key>
+			<string>果壳网</string>
+			<key>img</key>
+			<string>Demo_img_service_article04</string>
+		</dict>
+		<dict>
+			<key>Id</key>
+			<string>6</string>
+			<key>typeId</key>
+			<string>1</string>
+			<key>title</key>
+			<string>吃素，你吃对了吗？</string>
+			<key>content</key>
+			<string>首先吃的原料选择要新鲜、质量高。菜肴的原料，包括蔬菜及豆制品、肉类及肉制品、家禽及蛋品、水产海鲜、野味、干货和瓜果等，
+不下数百种。选料总的原则是新鲜高质。具体来说，熟悉各种原料的生长季节；掌握同一原料中不同品种的特点；了解原料不同部位的用途
+；善于鉴别各种原料的质量；懂得一点各种原料的主要营养特点的知识。
+
+  其次是根据自己身体的不同情况，配制不同的食物菜谱。现代生活的状态使得人们比较多地选择蔬菜、瓜果以及低糖、低盐、低脂肪的
+食物。也就是多食绿色食物，多食粗纤维食物，包括食一点粗粮，减少由于生活改善，食物趋向精细的偏向。
+
+  再次，食物既注意鲜嫩可口，又注意要烧熟，减少细菌对身体的侵害。现代社会，人们为了食美味，不少人开始吃生鱼、生肉、生蔬菜，
+有的则是吃半生不熟的生猛海鲜。殊不知饱了口福，可能伤了身体。这是我们应注意的。</string>
+			<key>createTime</key>
+			<string>2014/05/25</string>
+			<key>from</key>
+			<string>果壳网</string>
+			<key>img</key>
+			<string>Demo_img_service_article01</string>
+		</dict>
+		<dict>
+			<key>Id</key>
+			<string>7</string>
+			<key>typeId</key>
+			<string>1</string>
+			<key>title</key>
+			<string>吃素，你吃对了吗？</string>
+			<key>content</key>
+			<string>首先吃的原料选择要新鲜、质量高。菜肴的原料，包括蔬菜及豆制品、肉类及肉制品、家禽及蛋品、水产海鲜、野味、干货和瓜果等，
+不下数百种。选料总的原则是新鲜高质。具体来说，熟悉各种原料的生长季节；掌握同一原料中不同品种的特点；了解原料不同部位的用途
+；善于鉴别各种原料的质量；懂得一点各种原料的主要营养特点的知识。
+
+  其次是根据自己身体的不同情况，配制不同的食物菜谱。现代生活的状态使得人们比较多地选择蔬菜、瓜果以及低糖、低盐、低脂肪的
+食物。也就是多食绿色食物，多食粗纤维食物，包括食一点粗粮，减少由于生活改善，食物趋向精细的偏向。
+
+  再次，食物既注意鲜嫩可口，又注意要烧熟，减少细菌对身体的侵害。现代社会，人们为了食美味，不少人开始吃生鱼、生肉、生蔬菜，
+有的则是吃半生不熟的生猛海鲜。殊不知饱了口福，可能伤了身体。这是我们应注意的。</string>
+			<key>createTime</key>
+			<string>2014/05/25</string>
+			<key>from</key>
+			<string>果壳网</string>
+			<key>img</key>
+			<string>Demo_img_service_article02</string>
+		</dict>
+	</array>
+	<key>RemindContent</key>
+	<array>
+		<array>
+			<dict>
+				<key>remind_Type</key>
+				<string>1</string>
+				<key>doc_Name</key>
+				<string>李一秋</string>
+				<key>doc_ZhiCheng</key>
+				<string>主任医师</string>
+				<key>doc_Ico</key>
+				<string>Demo_Img_Doctor_Ico</string>
+				<key>remind_Content</key>
+				<string>根据你的血压情况推送了洛沙坦药物</string>
+				<key>union_Id</key>
+				<string></string>
+				<key>union_Title</key>
+				<string></string>
+			</dict>
+			<dict>
+				<key>remind_Type</key>
+				<string>1</string>
+				<key>doc_Name</key>
+				<string>李志</string>
+				<key>doc_ZhiCheng</key>
+				<string>副主任医师</string>
+				<key>doc_Ico</key>
+				<string>Demo_Img_Doctor_Ico</string>
+				<key>remind_Content</key>
+				<string>根据你的血压情况推送了吲达帕药物</string>
+				<key>union_Id</key>
+				<string></string>
+				<key>union_Title</key>
+				<string></string>
+			</dict>
+		</array>
+		<array>
+			<dict>
+				<key>remind_Type</key>
+				<string>2</string>
+				<key>doc_Name</key>
+				<string>王倩</string>
+				<key>doc_ZhiCheng</key>
+				<string>主任医师</string>
+				<key>doc_Ico</key>
+				<string>Demo_Img_Doctor_Ico</string>
+				<key>remind_Content</key>
+				<string>根据你的血压情况推送了</string>
+				<key>union_Id</key>
+				<string>1</string>
+				<key>union_Title</key>
+				<string>慢病资讯</string>
+			</dict>
+			<dict>
+				<key>remind_Type</key>
+				<string>2</string>
+				<key>doc_Name</key>
+				<string>李志</string>
+				<key>doc_ZhiCheng</key>
+				<string>副主任医师</string>
+				<key>doc_Ico</key>
+				<string>Demo_Img_Doctor_Ico</string>
+				<key>remind_Content</key>
+				<string>根据你的体重情况推送了</string>
+				<key>union_Id</key>
+				<string>2</string>
+				<key>union_Title</key>
+				<string>体重资讯</string>
+			</dict>
+		</array>
+		<array>
+			<dict>
+				<key>remind_Type</key>
+				<string>3</string>
+				<key>doc_Name</key>
+				<string>王倩</string>
+				<key>doc_ZhiCheng</key>
+				<string>主任医师</string>
+				<key>doc_Ico</key>
+				<string>Demo_Img_Doctor_Ico</string>
+				<key>remind_Content</key>
+				<string>根据你的血压情况推送了</string>
+				<key>union_Id</key>
+				<string>1</string>
+				<key>union_Title</key>
+				<string>张志</string>
+			</dict>
+			<dict>
+				<key>remind_Type</key>
+				<string>3</string>
+				<key>doc_Name</key>
+				<string>李一秋</string>
+				<key>doc_ZhiCheng</key>
+				<string>副主任医师</string>
+				<key>doc_Ico</key>
+				<string>Demo_Img_Doctor_Ico</string>
+				<key>remind_Content</key>
+				<string>根据你的体重情况推送了</string>
+				<key>union_Id</key>
+				<string>2</string>
+				<key>union_Title</key>
+				<string>范媛媛</string>
+			</dict>
+			<dict>
+				<key>remind_Type</key>
+				<string>3</string>
+				<key>doc_Name</key>
+				<string>李志</string>
+				<key>doc_ZhiCheng</key>
+				<string>副主任医师</string>
+				<key>doc_Ico</key>
+				<string>Demo_Img_Doctor_Ico</string>
+				<key>remind_Content</key>
+				<string>根据你的体重情况推送了</string>
+				<key>union_Id</key>
+				<string>3</string>
+				<key>union_Title</key>
+				<string>王一平</string>
+			</dict>
+		</array>
+	</array>
+</dict>
+</plist>
